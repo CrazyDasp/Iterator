@@ -1,6 +1,6 @@
 import { Character } from "./Character"
 
-class Team {
+class Team { // eslint-disable-line no-unused-vars
     constructor() {
         this.members = []
     }
@@ -14,7 +14,7 @@ class Team {
     }
 
     [Symbol.iterator]() {
-        index = 0
+        let index = 0
         const members = this.members
         return {
             next() {
